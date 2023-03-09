@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Couples Therapy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            
+        }
+        
+        body{
+                flex-wrap: wrap;
+                
+            }
+        .content{              
+               
+            position: relative;
+            float: right;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding-top: 5%;
+            padding-left: 8%;
+            padding-right: 5%;
+            padding-bottom: 4%;
+            text-align: justify;
+            background-color: rgba(175, 175, 20, 0.747);
+            /* background: linear-gradient; */
+            
+        }   
+        .image-section{
+            position: relative;
+            display:block;
+            width: auto;
+        }
+        .img{
+            position: absolute;
+            opacity: .9;
+            width: 100%;
+            
+        }
+        
+        .text {
+          
+            position: relative;  
+            /* margin-top: 10%; */
+            margin-left: 10%;
+            width: 99%
+            
+        }                             
+            
+           
+        
+        .ptext{   
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;                       
+        font-weight: 700;
+        letter-spacing: 3px;
+        color: rgb(250, 250, 250);
+        margin-right: auto;
+        margin-left: auto;
+        
+        }         
+        
+        
+        .h1{
+            margin: 2%;
+            text-align: center;
+            font-size: 3rem;
+            color: rgb(44, 18, 18);
+            font-style: italic;
+            text-decoration-style: solid;
+            text-decoration:underline ;
+        
+        }
+        #large{
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+                 
+          }
+        #small{
+            font-size: 1.8rem;
+        }
+        .para{
+            line-height: 1.5em;
+            margin-bottom: 1em;
+        }
+        #link{
+            color: black;
+            font-style: italic;
+        }
+        #p5{
+            margin-top: 7%;
+        }
+        .btn{
+            /* position: fixed; */
+           width: 9rem;
+           height: 3rem;
+           margin-top: 10%;
+           margin-bottom: 5%;
+           background-color: rgb(119, 49, 49);
+           color: white;
+           font-size: 1rem;
+           border: none;
+           letter-spacing: 2.5px;
+           /* transition: width .5s, height .5s; */
+           align-items:center;
+           
+        }
+      
+        #btn2{
+            
+            border: none;
+            padding: .2rem;
+            color: blanchedalmond;
+            letter-spacing: 2px;
+            font-style: italic;
+            text-transform: lowercase;
+            border-radius: 10px;
+            font-size: .7rem;
+            background-color: red;
+            align-items: center;
+            margin: auto;
+            float: right;
+        }
+
+        .btn:hover{
+            
+            background-color: rgb(82, 32, 32);
+            color: white;
+            font-weight: 500;
+            /* font-size: 1.1rem;
+            width: 10rem;
+            height: 3.5rem; */
+           
+            
+        }
+
+    @media screen and (max-width:100vw) and (min-width:700px) {
+
+            .image-section{
+                display: block;
+                position: fixed;
+                flex-wrap: wrap;
+            
+            }
+           
+            .content{
+                width: 50%;
+                height: 100%;
+
+            }
+            .side-image{
+                position: fixed;                
+                 top: 0;
+                 left: 0;
+                 float: left;             
+                width: 50%;
+                height: 100%;
+                 overflow: hidden;
+            }       
+            .img{
+                height: 100vh;
+            }
+           
+
+            .text {
+                
+                 position: relative;      
+                 margin-top: 20%;
+                 margin-left: 10%;
+                 width: 99%;
+                               
+                 
+            }
+        
+
+    @media screen and (max-width:700px) and (min-width:200px) {
+        .image-section{
+            /* display: block; */
+            position: relative;
+            flex-wrap: wrap;
+            height: 50vh;
+            width: auto;
+        }
+        
+        .side-image{
+            display: flex;
+            position: absolute;                    
+            height: 50%;
+            width: 50%; 
+        }
+        
+        .text{
+            position: absolute
+        
+        }
+        .content{
+            position: relative;
+        
+                
+            }
+        }
+
+        .navbar{
+            position: absolute;
+          
+                   
+
+            
+        }
+    }
+
+        
+
+
+
+    </style>
+    
+</head>
+<body>
+    <!-- <nav class="navbar bg-body-secondary">
+        <div class="container-fluid">
+          <form class="d-flex form"  role="search">
+            <input class="form-control me-2" type="search"         placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>0s
+          </form>
+        </div>
+      </nav>     -->
+
+    <main>      
+
+        <section class="image-section">
+              <div class="side-image">
+                    <img id="couple", class="img" src="https://images.squarespace-cdn.com/content/v1/50ccf2e1e4b0c301a821bf9f/1474930344155-TWF01XM0XN6G573SAHYD/find+the+spark.jpg" alt="Couples-Therapy.png">
+               </div>
+               <div class="text">
+                    <p id="large" class="ptext">NYC MARRIAGE THERAPY</p>
+                    <p id="small" class="ptext">ERKINDLE YOUR LOVE</p>
+                    <button  onclick="NewTab()" class="btn">BOOK NOW</button>
+                    
+               </div>
+        </section>
+
+        <section class="content">
+            <h1 class="h1">Couples-Therapy</h1>
+            <p class="para">Is your marriage or love relationship in trouble? If you're stuck in a pattern that is corroding your love, you may be flooded with feelings of loneliness, sadness, fear, and anger. The more you try to work it out, the worse it gets</p>
+            <p class="para">You may find yourself either angrily chasing after your partner, or backing away and numbing out to "protect" yourself from getting even more hurt. What you may not realize is that your partner responds to you in a way that makes your fears and insecurities about your love feel worse. </p>
+            <p class="para">The good news: you can rekindle the fire that brought you together. Take the next step to start feeling joy, safety, and love again.
+
+            </p>
+            <p class="para">Conveniently located in <b> Midtown Manhattan </b>, when you meet together with one of our compassionate and experienced therapists from Loving at Your Best, we will put together a personalized plan so that you can start to feel the love again. And the results are lasting.</p>
+            <a id="link" href="#">Read Verified Reviews</a>
+            <br>
+            <a id="link" href="#">Book Now</a>
+            <p class="para" id="p5">"Travis is a highly effective <b>therapist</b>. He is professorial and caring as well. He has helped me to learn how my past impacts my present life and to make sense of what is happening inside. He has also helped me to thrive as a person, a wife and mother. I can't thank him enough. I highly recommend him because I truly believe he is one of the most gifted therapists." ~ Independently Verified Client Review</p>
+
+            <div class="btn2">
+            <button id="btn2">FEEDBACK</button>
+            </div>
+        </section>
+
+
+    
+    </main>
+
+    <script>
+       function NewTab(){
+        window.open('https://www.linkedin.com/in/akshat-verma-2b6106228/', '#')
+       }
+        
+        </script>
+</body>
+</html>
